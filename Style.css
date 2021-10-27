@@ -1,0 +1,145 @@
+body{
+    margin:0
+} 
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+}
+#nav a{
+    margin-top: 20px;
+    margin-right: 20px;
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+}
+#nav a.topimage{
+    margin-top: 13px;
+    width: 30px;
+    height: 30px;
+    background: chocolate;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(33, 33, 158);
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#mid{
+    margin-top: 20px;
+ }  
+#logo{
+    text-align: center;
+
+}
+#searchbarconteiner{
+     text-align: center;
+     margin-top: 20px;
+     
+}
+#searchbar{
+    
+    padding: 13px;
+    width: 550px;
+    border-radius: 35px;
+    outline:0;
+    border: 1px solid rgb(216, 217, 223) ;
+}
+#searchbar:hover{
+    box-shadow: 0 0 1px 1px rgb(206, 206, 214);
+}
+
+#buttons{
+    text-align: center;
+}
+#buttons button{
+    margin: 5px;
+    margin-top: 35px;
+    color: rgb(80, 80, 80);
+    width: 130px;
+    height: 35px;
+    background: rgb(244, 245, 245);
+    border: solid rgb(244, 245, 245);
+    border-radius: 5px;
+    cursor: pointer;
+}
+#buttons button:hover{
+    box-shadow: 0 0 1px 1px rgb(206, 206, 214);
+}
+#offered {
+    margin: 24px;
+    color: rgb(69, 71, 72);
+    font:caption;
+    font-size: 12.7px;
+    text-align: center;
+}
+
+#footer{
+position: absolute;
+  bottom: 45px;
+  width: 100%;
+  height: 45px;
+
+  background: rgba(229, 232, 232, 0.672);
+  color: rgb(87, 91, 95);
+
+}
+
+#footer p{
+    position: absolute;
+    left:30px; 
+}
+
+#realfooter{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  
+  background: rgba(231, 233, 233, 0.672);
+  border-top: 1px solid rgb(213, 213, 214);
+  color:  rgb(87, 91, 95);
+}
+
+#leftlinks{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    column-gap: 20px;
+    white-space: nowrap;
+    justify-content: flex-end;
+    color:  rgb(106, 107, 107);
+}
+#leftlinks a{
+    display: flex;
+    border: 20px;
+    column-gap: 20px;
+    padding: 15px;
+    white-space: nowrap;
+    justify-content: flex-end;
+    color:  rgb(106, 107, 107);
+}
+
+#rightlinks{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    color:  rgb(106, 107, 107);
+}
+
+#rightlinks a{
+    border: 10px;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding: 15px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-end;
+    color:  rgb(106, 107, 107);
+}
